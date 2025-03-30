@@ -7,6 +7,6 @@
 
 ###
 <h3 align="left">Scopo </h3>
-<h5 align="left"> L'obiettivo di questi esercizi è sviluppare esperienza con l'approccio logico, applicando i ragionamenti in modo ordinato entro un tempo specificato. </h5>
+<h5 align="left">L'obiettivo di questi esercizi è sviluppare esperienza con l'approccio logico, applicando i ragionamenti in modo ordinato entro un tempo specificato. </h5>
 
 ###
