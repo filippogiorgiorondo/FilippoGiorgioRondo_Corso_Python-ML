@@ -1,4 +1,4 @@
-<h1 align="left">Python per Analisi Dati e Machine Learning  👋</h1>
+<h1 align="left">Python per Analisi Dati e Machine Learning </h1>
 
 ###
 
