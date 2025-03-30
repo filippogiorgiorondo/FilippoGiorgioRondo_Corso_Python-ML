@@ -1,3 +1,3 @@
-# FilippoGiorgioRondo_Python_ML_Data-Analysis
+CORSO: Python per Analisi Dati e Machine Learning
 
-questa è una descrizione
+Questa repository contiene gli esercizi e i progetti realizzati durante il corso "Python per Analisi Dati e Machine Learning". Qui troverai codice, appunti e approfondimenti utili
