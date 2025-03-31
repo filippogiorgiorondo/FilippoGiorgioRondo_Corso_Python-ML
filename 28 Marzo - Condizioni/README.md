@@ -8,7 +8,7 @@
 ###
 
 <h3 align="left"> Tracce esercizi  </h3>
-<h5 align="left">1: Creare una serie di condizioni una dentro l’altra che a fronte di un
+<h5 align="left"> 1: Creare una serie di condizioni una dentro l’altra che a fronte di un
 imput per ogni if decidano se farti passare o no ( 3 livelli, fate un paragone con == )
   
 #
