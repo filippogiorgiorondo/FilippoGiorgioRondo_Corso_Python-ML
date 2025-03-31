@@ -1,4 +1,4 @@
-<h1 align="left"> 28 Marzo</h1>
+<h1 align="left"> Venerdì 28 Marzo</h1>
 
 ###
 
