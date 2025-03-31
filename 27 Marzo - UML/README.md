@@ -1,4 +1,4 @@
-<h1 align="left"> Esercizi UML - 27 marzo</h1>
+<h1 align="left"> Giovedì - 27 marzo</h1>
 
 ###
 
