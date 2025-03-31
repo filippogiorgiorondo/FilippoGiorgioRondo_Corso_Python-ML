@@ -26,31 +26,15 @@ e solo se si passa dall’else concludere lo script
 
 #
 
-Scenario: Devi scrivere un programma Python che simuli un sistema di login. Il sistema deve permettere all'utente di inserire un nome utente e una password. Poi, deve verificare se la combinazione di nome utente e password è corretta. Per semplicità, puoi hardcodare nel codice una coppia di nome utente e password che sia considerata corretta.
+4:Scrivere un programma Python che simuli un sistema di login. Il sistema deve permettere all'utente di inserire un nome utente e una password. Poi, deve verificare se la combinazione di nome utente e password è corretta. Per semplicità, puoi hardcodare nel codice una coppia di nome utente e password che sia considerata corretta.
 
 Requisiti:
 
-Input dell'Utente:
+Input dell'Utente: Il programma chiede all'utente di inserire il nome utente. Poi, chiede all'utente di inserire la password.
 
-Il programma chiede all'utente di inserire il nome utente.
+Verifica delle Credenziali: Il programma controlla se il nome utente e la password inseriti corrispondono a quelli predefiniti. Puoi decidere di avere le credenziali hardcoded nel codice per questo esercizio. Ad esempio, puoi usare "admin" come nome utente e "12345" come password.
 
-Poi, chiede all'utente di inserire la password.
+Output del Programma: Se il nome utente e la password sono corretti, stampa un messaggio di benvenuto. Altrimenti, informa l'utente che le credenziali sono errate.
 
-Verifica delle Credenziali:
-
-Il programma controlla se il nome utente e la password inseriti corrispondono a quelli predefiniti.
-
-Puoi decidere di avere le credenziali hardcoded nel codice per questo esercizio. Ad esempio, puoi usare "admin" come nome utente e "12345" come password.
-
-Output del Programma:
-
-Se il nome utente e la password sono corretti, stampa un messaggio di benvenuto.
-
-Altrimenti, informa l'utente che le credenziali sono errate.
-
-Modifica dati del Programma:
-
-Inserisci una condizione interna che si occupi di cambiare un dato specifico tra quelli inseriti.
-
-Appena loggato fai scegliere fra due opzioni di domanda segreta e la risposta (qual è il colore preferito, quale animale preferito).
+Modifica dati del Programma: Inserisci una condizione interna che si occupi di cambiare un dato specifico tra quelli inseriti. Appena loggato fai scegliere fra due opzioni di domanda segreta e la risposta (qual è il colore preferito, quale animale preferito).
 </h5>
