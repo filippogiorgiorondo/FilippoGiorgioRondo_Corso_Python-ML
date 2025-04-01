@@ -1,13 +1,13 @@
-# Chiediamo all'utente di inserire il primo numero
+# Chiede all'utente di inserire il primo numero
 n1 = int(input("Benvenuto. Qui potrai eseguire operazioni tra due numeri\nInserisci il primo numero: "))
 
-# Chiediamo all'utente di inserire il secondo numero
+# Chiede all'utente di inserire il secondo numero
 n2 = int(input("Perfetto, inserisci il secondo numero: "))
 
-# Chiediamo all'utente di scegliere un'operazione
+# Chiede all'utente di scegliere un'operazione
 operazione = input("Scegliere un'operazione disponibile tra le seguenti:\nSomma(1)\nSottrazione(2)\nMoltiplicazione(3)\nDivisione(4)\nPotenza(5)")
 
-# Iniziamo un match per decidere quale operazione eseguire
+# Inizia un match per decidere quale operazione eseguire
 match operazione:
     # Caso per la somma
     case "1":
@@ -31,15 +31,15 @@ match operazione:
         else:
             whatdo = input("Preferisci una divisione intera (1), reale (2) o con resto(3)?")
             match whatdo:
-                #divisione intera
+                # Divisione intera
                 case "1":
                     risultato = n1 // n2  # Divisione del primo numero per il secondo
                     print(f"{risultato}, è il risultato")  # Stampa il risultato della divisione
-                #divisione reale
+                # Divisione reale
                 case "2":
                     risultato = n1 / n2
                     print(f"{risultato}, è il risultato")
-                #divisione con resto
+                # Divisione con resto
                 case "3":
                     risultato = n1 % n2
                     print(f"{risultato}, e il risultato")
