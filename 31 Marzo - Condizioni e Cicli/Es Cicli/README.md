@@ -33,4 +33,14 @@ Il sistema deve:
 Utilizzare un ciclo for per trovare il numero massimo nella lista.
 Utilizzare un ciclo while per contare quanti numeri sono presenti nella lista.
 Utilizzare una condizione if per stampare "Lista Vuota" se la lista è vuota, altrimenti stampare il numero massimo trovato e il numero di elementi nella lista.
+
+#
+
+Esercizio 6 (extra):
+Riferito all'esercizio precedente - Creare un menu per gestire le richieste. L'utente deve essere in grado di scegliere l'operazione desiderata
+
+#
+
+Esercizio 6 (extra 2.0)
+Riferito all'esercizio precedente - Dare la possibilità all'utente, prima di eseguire le operazioni desiderate, di sceglierne quante e quali
 </p>
