@@ -1,5 +1,5 @@
 <h3 align="left"> Contenuto </h3>
-<p align="left"> Esercitazioni sui cicli For, While, Range</p>
+<p align="left"> Esercitazioni sui cicli For, While, Range. E' presente una cartella per le specializzazioni di range con tre 3 esercizi (base, medio, avanzato)</p>
 
 ###
 
