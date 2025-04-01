@@ -1,7 +1,7 @@
 # Lista valorizzata dall'utente
 lista = []
 
- # Inserimento valori nella lista
+# Inserimento valori nella lista (valorizzazione lista da parte dell'utente)
 for n in range(1, 6):
     print(f"Inserisci il {n} numero da aggiungere alla lista")
     numeroAggiunto = int(input())
