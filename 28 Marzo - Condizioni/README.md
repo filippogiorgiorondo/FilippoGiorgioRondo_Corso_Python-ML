@@ -1,14 +1,14 @@
-<h1 align="left"> Venerdì 28 Marzo</h1>
+<h1 align="left"> Resoconto di Lunedì 28 Marzo</h1>
 
 ###
 
 <h3 align="left"> Argomenti svolti</h3>
-<h5 align="left"> Nel primo giorno di corso abbiamo fatto un'introduzione teorica a Python, iniziando con le variabili, i loro tipi e gli operatori, passando per le liste, la manipolazione di esse e delle stringhe (metodi), concludendo con i costrutti di condizione if-elif-else e match-case. Abbiamo inoltre svolto esercizi mirati per consolidare quanto appreso </h5>
+<p align="left"> Nel primo giorno di corso abbiamo fatto un'introduzione teorica a Python, iniziando con le variabili, i loro tipi e gli operatori, passando per le liste, la manipolazione di esse e delle stringhe (metodi), concludendo con i costrutti di condizione if-elif-else e match-case. Abbiamo inoltre svolto esercizi mirati per consolidare quanto appreso </p>
 
 ###
 
 <h3 align="left"> Tracce esercizi  </h3>
-<h5 align="left"> 1: Creare una serie di condizioni una dentro l’altra che a fronte di un
+<p align="left"> 1: Creare una serie di condizioni una dentro l’altra che a fronte di un
 imput per ogni if decidano se farti passare o no ( 3 livelli, fate un paragone con == )
   
 #
@@ -37,4 +37,4 @@ Verifica delle Credenziali: Il programma controlla se il nome utente e la passwo
 Output del Programma: Se il nome utente e la password sono corretti, stampa un messaggio di benvenuto. Altrimenti, informa l'utente che le credenziali sono errate.
 
 Modifica dati del Programma: Inserisci una condizione interna che si occupi di cambiare un dato specifico tra quelli inseriti. Appena loggato fai scegliere fra due opzioni di domanda segreta e la risposta (qual è il colore preferito, quale animale preferito).
-</h5>
+</p>
