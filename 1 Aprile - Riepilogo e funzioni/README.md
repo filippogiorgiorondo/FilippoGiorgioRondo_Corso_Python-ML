@@ -1,12 +1,12 @@
-<h1 align="left"> Riepilogo Martedì - 1 Aprile </h1>
+<h1 align="left"> Resoconto Martedì - 1 Aprile </h1>
 
 ###
 
-<h3 align="left"> Contenuto</h3>
-<p align="left"> Questa cartella contiene i tre esercizi svolti durante il primo giorno di corso. Gli esercizi sono organizzati in modo progressivo, partendo dagli elementi essenziali e aumentando gradualmente la complessità. Ogni esercizio introduce nuove sfide, permettendo di articolare la struttura in modo sempre più dettagliato.  </p>
+<h3 align="left"> Argomenti svolti</h3>
+<p align="left"> In questa giornata abbiamo dedicato una parte della mattinata a svolgere esercizi di riepilogo che comprendessero tutti gli argomenti fin'ora svolti, per poi proseguire e studiare le funzioni. Anche gli argomenti nuovi sono stati ripresi e approfonditi dal punto di vista pratico. Durante le ultime ore della giornata ci è stato assegnato un compito da svolgere in coppia per prendere dimestichezza con i branch </p>
 
 ###
 
-<h3 align="left">Scopo </h3>
-<p align="left">L'obiettivo di questi esercizi è sviluppare esperienza con l'approccio logico, applicando i ragionamenti in modo ordinato entro un tempo specificato. </p>
+<h3 align="left"> Contenuto </h3>
+<p align="left"> La repo contiene una cartella con gli esercizi di riepilogo e una cartella con gli esercizi sulle funzioni</p>
 
