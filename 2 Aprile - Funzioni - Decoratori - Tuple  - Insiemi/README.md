@@ -1,4 +1,4 @@
-<h1 align="left"> Resoconto Martedì - 2 Aprile </h1>
+<h1 align="left"> Resoconto Martedì - 2 Aprile  </h1>
 
 ###
 
