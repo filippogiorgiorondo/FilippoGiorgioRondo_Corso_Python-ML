@@ -8,4 +8,4 @@
 ###
 
 <h3 align="left"> Contenuto </h3>
-<p align="left"> La repo contiene l'esercizio..................... </p>
+<p align="left"> La repo contiene le cartelle: esercizi finali, una sorta di manuale di tutti gli argomenti affrontati nei primi 5 giorni; esercizio di coppia; esercizi funzioni, dove ci sono esercizi specifici sull'uso delle funzioni</p>
