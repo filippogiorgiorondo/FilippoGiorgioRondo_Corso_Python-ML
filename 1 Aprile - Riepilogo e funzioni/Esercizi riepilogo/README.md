@@ -1,11 +1,12 @@
 
 <h3 align="left">Tracce esercizi </h3>
 <p align="left">
-Esercizio 1: Scrivi un programma che chieda all'utente di inserire un numero intero positivo n. Il programma deve poi eseguire le seguenti operazioni:
-- Utilizzare un ciclo while per garantire che l'utente inserisca un numero positivo. Se l'utente inserisce un numero negativo o zero, il programma deve continuare a chiedere un numero fino a quando non viene inserito un numero positivo.
-- Utilizzare un ciclo for con range per calcolare e stampare la somma dei numeri pari da 1 a n.
-- Utilizzare un ciclo for per stampare tutti i numeri dispari da 1 a n.
-- Utilizzare una struttura if per determinare se n è un numero primo. Un numero primo è divisibile solo per 1 e per se stesso. Il programma deve stampare se n è primo o no.
+  
+Esercizio 1: Scrivi un programma che:
+- Utilizza un ciclo while per garantire che l'utente inserisca un numero positivo. Se l'utente inserisce un numero negativo o zero, il programma deve continuare a chiedere un numero fino a quando non viene inserito un numero positivo.
+- Utilizza un ciclo for con range per calcolare e stampare la somma dei numeri pari da 1 a n.
+- Utilizza un ciclo for per stampare tutti i numeri dispari da 1 a n.
+- Utilizza una struttura if per determinare se n è un numero primo. Un numero primo è divisibile solo per 1 e per se stesso. Il programma deve stampare se n è primo o no.
 
 #
 
