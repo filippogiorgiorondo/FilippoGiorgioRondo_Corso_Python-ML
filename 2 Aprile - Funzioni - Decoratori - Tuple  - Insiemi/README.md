@@ -8,4 +8,4 @@
 ###
 
 <h3 align="left"> Contenuto </h3>
-<p align="left"> La repo contiene una cartella con gli esercizi di riepilogo e una cartella con gli esercizi sulle funzioni</p>
+<p align="left"> .... </p>
