@@ -1,4 +1,4 @@
-<h3 align="left"> Traccia esercizio>
+<h3 align="left"> Traccia esercizio </h3>
 <p align= "left"> 
   
 - Andare a creare un sistema che permetta di gestire le prenotazioni in una sala concerti.
