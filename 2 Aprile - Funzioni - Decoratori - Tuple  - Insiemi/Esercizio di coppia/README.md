@@ -8,5 +8,7 @@
 - Ogni utente deve prima registrarsi con Nome e Password.+
 - Ogni utente deve fare il login per andare a prenotare o creare concerti.
 - Un utente può aggiungere concerti solo se conosce una password segreta: "GHIBLI"
+
+
 NON SONO PERMESSE CLASSI
 </p>
