@@ -18,3 +18,8 @@ Esercizio 2: Scrivi un programma che esegua le seguenti operazioni:
 -  tilizza una funzione per determinare se un numero è primo. La funzione deve restituire True se il numero è primo, altrimenti False.
 - Utilizza un ciclo for per stampare tutti i numeri primi nella lista.
 - Infine, utilizza una struttura if per determinare se la somma di tutti i numeri nella lista è un numero primo e stampa il risultato.
+
+#
+
+Esercizio 2 (extra) - Riferito all'esercizio 2:
+- Aggiungi controllo per verificare se ogni numero casuale da 1 ad n sia primo e manda il risultato (true o false) in stampa </p
