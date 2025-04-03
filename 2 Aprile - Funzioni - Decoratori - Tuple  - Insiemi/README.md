@@ -8,4 +8,7 @@
 ###
 
 <h3 align="left"> Contenuto </h3>
-<p align="left"> La repo contiene le seguenti cartelle: esercizi finali, contenente gli esercizi che riprendessero tutti gli argomenti studiati fino al 02/aprile; esercizi funzioni, esercizi specifici sulle funzioni; esercizio di coppia, contenente il progetto di coppia svolto nel branch </p>
+<p align="left"> La repo contiene le seguenti cartelle: 
+- Esercizi finali, contenente gli esercizi che riprendessero tutti gli argomenti studiati fino al 02/aprile;
+- Esercizi funzioni, esercizi specifici sulle funzioni; 
+- Esercizio di coppia, contenente il progetto di coppia svolto nel branch </p>
