@@ -4,19 +4,17 @@
 
 <h3 align="left"> Argomenti svolti</h3>
 <p align="left"> 
-Durante le giornate del 7 e 8 del corso, ci siamo concentrati su come migliorare la qualità del nostro codice Python, andando oltre il semplice "codice che funziona" per raggiungere un codice pulito, leggibile e ottimizzato.
+Durante le giornate del 7 e 8 del corso, ci siamo concentrati su come migliorare la qualità del codice Python, andando oltre il semplice "codice che funziona" per raggiungere soluzioni più pulite, leggibili e ottimizzate.
 
-Abbiamo approfondito alcune funzioni e metodi Python fondamentali, in particolare per la gestione delle stringhe e delle liste come .isdecimal() e .isdigit(), utili per la validazione dei dati in input, con una particolare attenzione alle loro differenze nel trattare numeri e stringhe.
+Sono state approfondite diverse funzioni e metodi per la gestione di stringhe e liste, come .isdecimal() e .isdigit(), con particolare attenzione alle loro differenze nella validazione dei dati. Si è parlato anche di list comprehension, utile per creare liste in modo compatto e chiaro.
 
-Un altro aspetto trattato è stata la list comprehension, che ci permette di creare liste in modo compatto e leggibile.
+Non sono mancate le tecniche per manipolare liste e stringhe, tra cui l’uso di .join() per unire gli elementi e lo slicing per accedere a porzioni di sequenze.
 
-Abbiamo poi approfondito le operazioni di manipolazione delle liste e delle stringhe, come l'uso del metodo .join() per unire elementi di una lista in una singola stringa e il concetto di slicing per accedere a porzioni di lista. 
+Un focus importante è stato dedicato ai dizionari, esplorando metodi avanzati come .items(), .get() e .setdefault() per una gestione più efficiente.
 
-Un'attenzione particolare è stata data ai dizionari: abbiamo esplorato metodi avanzati come .items(), .get() e .setdefault(), per interagire con i dizionari in modo più preciso ed efficiente, evitando errori
+Per quanto riguarda le funzioni, si è lavorato su parametri di default e variabili (*args, **kwargs), utili a scrivere codice più flessibile e riutilizzabile. Sono stati inoltre introdotti i concetti di map() e filter(), particolarmente utili in presenza di grandi quantità di dati grazie al loro approccio dichiarativo e performante.
 
-Inoltre, abbiamo studiato la gestione delle funzioni, con particolare focus sull'uso di parametri con valori di default, parametri variabili (*args e **kwargs) e la loro applicazione per scrivere funzioni più flessibili e riutilizzabili.
+È stato presentato anche il costrutto try/except, fondamentale per intercettare errori e rendere il codice più robusto.
 
-Infine, sono stati introdotti i concetti delle funzioni map() e filter(). Queste funzioni ci permettono di applicare trasformazioni a sequenze di dati in modo dichiarativo, mantenendo il codice più pulito e leggibile. In particolare, è stato enfatizzato come l'uso di queste funzioni sia vantaggioso quando si lavora con grandi quantità di dati, poiché favorisce un approccio più funzionale e ottimizzato.
-
-In conclusione, queste giornate ci hanno fornito gli strumenti per scrivere codice Python più efficace, pulito e facilmente manutenibile
+Infine, si è visto come leggere e scrivere file CSV imparando a gestire dati esterni in modo semplice e strutturato
 </p>
