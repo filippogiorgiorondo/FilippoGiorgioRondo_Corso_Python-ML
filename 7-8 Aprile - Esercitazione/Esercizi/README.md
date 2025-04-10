@@ -1,5 +1,17 @@
 <h1 align="left">Tracce esercizi </h1>
 
+<h3 align="left"> 🟠 Esercizio "Cifrario di cesare" </h3>
+<p align="left"> 
+  
+Il programma deve:
+- prendere in input una stringa (una frase)
+- prendere in input la chiave di criptazione e decriptazione
+- ripulire la stringa da caratteri speciali
+- stampare il testo pulito e criptato/decriptato
+  </p>
+
+#
+  
 <h3 align="left"> 🟠 Esercizio "contaParoleRipetute" </h3>
 <p align="left"> 
   
