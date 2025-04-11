@@ -1,4 +1,4 @@
-<h1 align="left"> Resoconto Giorni 8 e 9 di corso </h1>
+<h1 align="left"> Resoconto giorni 8 e 9 di corso </h1>
 
 ###
 
