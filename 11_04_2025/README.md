@@ -1,4 +1,4 @@
-<h1 align="left"> Riepilogo gorno 12</h1>
+<h1 align="left"> Resoconto gorno 12 di corso</h1>
 <h3 align="left"> Argomenti svolti </h3>
 Durante questa giornata di corso abbiamo approfondito l’utilizzo della libreria mysql-connector per collegare Python a un database MySQL. Dopo una breve revisione dei concetti introdotti nella lezione precedente, ci siamo concentrati sugli aspetti pratici dell’interazione tra Python e i database, analizzando in dettaglio come stabilire una connessione, eseguire query SQL e gestire i risultati all’interno di uno script Python.
 
