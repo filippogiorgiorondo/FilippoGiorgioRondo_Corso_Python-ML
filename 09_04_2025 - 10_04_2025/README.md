@@ -1,4 +1,4 @@
-<h1 align="left"> Resoconto Giorni 10 e 11 </h1>
+<h1 align="left"> Resoconto giorni 10 e 11 di corso</h1>
 <h3 align="left"> Argomenti svolti</h3>
 <p>Durante queste due giornate di formazione ci siamo concentrati sull’introduzione ai concetti fondamentali dei database e del linguaggio SQL. La lezione è iniziata con una parte teorica, in cui abbiamo approfondito cosa sono i database relazionali, a cosa servono e come sono strutturati. Sono stati spiegati i concetti di tabelle, relazioni, chiavi primarie e chiavi esterne, oltre alle basi del linguaggio SQL, come le istruzioni SELECT, FROM, WHERE e JOIN.
 
