@@ -1,4 +1,4 @@
-<h1 align="left"> Resoconto 4 Aprile - Giorno 7</h1>
+<h1 align="left"> Resoconto Giorno 7 di corso</h1>
 
 ###
 
