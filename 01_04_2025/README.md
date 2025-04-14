@@ -1,4 +1,4 @@
-<h1 align="left"> Resoconto Giorno 4 di corso</h1>
+<h1 align="left"> Resoconto giorno 4 di corso</h1>
 
 ###
 
