@@ -26,7 +26,7 @@ non vuota).
 """
 class ContoBancario:
     def __init__(self, titolare, saldo):
-        if type(titolare) == str and titolare.strip() == "": # verifica che il titolare non sia una stringa vuota
+        if type(titolare) != str or titolare.strip() == "": # verifica che il titolare non sia una stringa vuota
             raise ValueError("Il titolare deve essere una stringa non vuota.")
         if saldo < 0:
             raise ValueError("Il saldo iniziale non può essere negativo.")
@@ -42,14 +42,14 @@ class ContoBancario:
         else:
             raise ValueError("Il nuovo titolare deve essere una stringa non vuota.")
 
-    def deposita(self, importo):
+    def deposita(self, importo): # funzione per depositare l'importo, verificando che questo sia maggiore di 0
         if importo > 0:
             self.__saldo += importo
             print(f"Deposito di {importo}€ effettuato con successo.")
         else:
             print("L'importo deve essere maggiore di 0.")
 
-    def preleva(self, importo):
+    def preleva(self, importo): # funzione per prelevare, verificando che l'importo sia positivo e che non sia maggiore del saldo disponibile
         if importo <= 0:
             print("L'importo deve essere positivo.")
         elif importo > self.__saldo:
@@ -58,7 +58,7 @@ class ContoBancario:
             self.__saldo -= importo
             print(f"Prelievo di {importo}€ effettuato con successo.")
 
-    def visualizza_saldo(self):
+    def visualizza_saldo(self): #stampa del saldo
         print(f"Saldo disponibile: {self.__saldo}€")
 
 # --- Menu con match-case ---
