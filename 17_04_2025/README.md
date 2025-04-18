@@ -1,4 +1,4 @@
-# Recap giorno 16 di corso
+# Recoconto giorno 16 di corso
 
 ## 📌 Argomenti Trattati
 Durante questa giornata di corso ci siamo concentrati sull'utilizzo della libreria NumPy, uno degli strumenti fondamentali per la programmazione scientifica e il data processing in Python.
