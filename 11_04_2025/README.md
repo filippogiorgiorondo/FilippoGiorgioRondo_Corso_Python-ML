@@ -1,4 +1,4 @@
-# Resoconto giorno 12 di corso
+# Resoconto 12° giorno di corso
 ## 📌 Panoramica generale
  🔺 Esercizi sull'utilizzo della libreria mysql.connector per collegare Python a un DB MySQL
  
