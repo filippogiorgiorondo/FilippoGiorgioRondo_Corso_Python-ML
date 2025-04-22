@@ -1,10 +1,13 @@
 # Resoconto 4° giorno di corso
 ## 📌 Panoramica generale
 
-- Esercizi di riepilogo
-- Studio delle funzioni
-- Esercizi sulle funzioni
-- Esercizio di coppia per prendere dimestichezza con i branch
+ 🔺  Esercizi di riepilogo
+ 
+ 🔺  Studio delle funzioni
+ 
+ 🔺  Esercizi sulle funzioni
+ 
+ 🔺  Esercizio di coppia per prendere dimestichezza con i branch
 
 ## 📂 Contenuto della Repository
 🔸 Es coppia con branch/
