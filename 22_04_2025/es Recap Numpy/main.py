@@ -1,22 +1,16 @@
-from configurazioni import AnalisiUniversitaria
-from db_utils import *
+from db_utils import AnalisiUniversitaria, connects
 
 """
 Andare a creare un piccolo sistema di analisi dei dati su un DB relazionale che deve essere generato
 e collegare almeno 3 tabelle.
 Ci dev’essere un menu per eseguire le principali funzioni che hai studiato con numpy.
 
---- Analisi Esami Universitari ---
-1. Media dei voti per ogni corso
-2. Deviazione standard voti di uno studente
-3. Mediana dei voti in un corso
-4. Somma dei voti sostenuti da uno studente
-5. Esci
 """
-
+# === Funzione che funge da menù === 
 def analisi_menu():
     analisi = AnalisiUniversitaria()
 
+    # === Funzione fornire le info sui corsi ===
     def get_corsi():
         query = "SELECT id_corso, nome_corso FROM Corsi"
         with connects() as conn:
@@ -24,6 +18,7 @@ def analisi_menu():
             cursor.execute(query)
             return cursor.fetchall()
 
+    # === Funzione fornire le info sugli studenti ===
     def get_studenti():
         query = "SELECT id_studente, nome_studente FROM Studenti"
         with connects() as conn:
@@ -31,6 +26,7 @@ def analisi_menu():
             cursor.execute(query)
             return cursor.fetchall()
 
+    # === Ciclo per reiterare il menù ===
     while True:
         corsi = get_corsi()
         studenti = get_studenti()
@@ -108,5 +104,6 @@ def analisi_menu():
         except Exception as e:
             print(f"Si è verificato un errore: {e}")
 
+# === Esecuzione del codice ===
 if __name__ == "__main__":
     analisi_menu()

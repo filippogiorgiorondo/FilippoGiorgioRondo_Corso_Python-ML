@@ -1,7 +1,8 @@
-from configurazioni import db_conf
+from db_configu import db_conf
 import mysql.connector
 from mysql.connector import Error
 from contextlib import contextmanager
+import numpy as np
 
 # === Funzione per collegarsi ad database ===
 @contextmanager
@@ -135,8 +136,80 @@ def populate_universita_tables(studenti, corsi, esami, risultati_esame):
     except Exception as e:
         print(f"Errore durante l'inserimento: {e}")
 
+
 # === Richiamo la funzione per creare le tabelle
 # create_tables()
 
 # === Richiamo la funzione per popolare le tabelle ===
 # populate_universita_tables(studenti, corsi, esami, risultati_esame)
+
+
+# === Classe per gestire i calcoli con Numpy ===
+class AnalisiUniversitaria:
+    
+    # === Funzione per prendere le informazioni sui corsi e sugli studenti ===
+    def get_all_results(self):
+        query = """
+            SELECT RE.voto, RE.id_studente, E.id AS id_esame, C.id_corso
+            FROM Risultati_Esame RE
+            JOIN Esami E ON RE.id_esame = E.id
+            JOIN Corsi C ON E.id_corso = C.id_corso
+        """
+        with connects() as conn:
+            cursor = conn.cursor(dictionary=True)
+            cursor.execute(query)
+            return cursor.fetchall()
+
+    # === Funzione per calcolare la media ===
+    def media_voti_per_corso(self, corso_id):
+        results = self.get_all_results()
+        voti = [r['voto'] for r in results if r['id_corso'] == corso_id]
+        return np.mean(voti) if voti else None
+
+    # === Funzione per calcolare la deviazione standard ===
+    def deviazione_stand_voti_studente(self, studente_id):
+        results = self.get_all_results()
+        voti = [r['voto'] for r in results if r['id_studente'] == studente_id]
+        return np.std(voti) if voti else None
+
+    # === Funzione per calcolare la mediana dei voti ===
+    def mediana_voti_corso(self, corso_id):
+        results = self.get_all_results()
+        voti = [r['voto'] for r in results if r['id_corso'] == corso_id]
+        return np.median(voti) if voti else None
+
+    # === Funzione per calcolare la somma dei voti ===
+    def somma_voti_studente(self, studente_id):
+        results = self.get_all_results()
+        voti = [r['voto'] for r in results if r['id_studente'] == studente_id]
+        return np.sum(voti) if voti else 0
+
+    # === Funzione per stampare il voto più basso ===
+    def voto_piu_basso_alto_corso(self, corso_id):
+        results = self.get_all_results()
+        voti = [r['voto'] for r in results if r['id_corso'] == corso_id]
+        return (np.min(voti), np.max(voti)) if voti else (None, None)
+
+    # === Funzione per stampare il numero di esami svolti da uno studente ===
+    def numero_esami_studente(self, studente_id):
+        results = self.get_all_results()
+        return len([r for r in results if r['id_studente'] == studente_id])
+
+    # === Funzione per calcolare la distribuzione dei voti di uno studente ===
+    def distribuzione_voti_studente(self, studente_id):
+        results = self.get_all_results()
+        voti = [r['voto'] for r in results if r['id_studente'] == studente_id]
+        unique, counts = np.unique(voti, return_counts=True)
+        return dict(zip(unique, counts))
+
+    # === Funzione per calcolare la percentuale di studenti che hanno superato l'esame ===
+    def percentuale_successo_corso(self, corso_id):
+        results = self.get_all_results()
+        voti = [r['voto'] for r in results if r['id_corso'] == corso_id]
+        if not voti:
+            return None
+        successi = [v for v in voti if v >= 18]
+        return round(len(successi) / len(voti) * 100, 2)
+
+
+
