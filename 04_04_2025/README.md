@@ -1,11 +1,17 @@
-<h1 align="left"> Resoconto Giorno 7 di corso</h1>
+# Resoconto 7° giorno di corso
 
-###
+## 📌 Panoramica generale
 
-<h3 align="left"> Argomenti svolti</h3>
-<p align="left"> In questa giornata abbiamo dedicato una parte della mattinata a svolgere un test tecnico per valutare l'andamento della classe. Nel resto della giornata abbiamo svolto un esercizio di allenamento sulle classi e un esercizio di gruppo (4 persone)</p>
+ 🔺  Test tecnico per valutare l'andamento della classe
+ 
+ 🔺  Esercizi di allenamento sulle classi
+ 
+ 🔺  Esercizio di gruppo (4 persone)
+ 
+ 
+## 📂 Contenuto della Repository
+🔸 Esercizi sulle classi/
+Cartella contenente gli esercizi di allenamento svolti sulle classi
 
-###
-
-<h3 align="left"> Contenuto </h3>
-<p align="left"> La repo contiene le cartelle: esercizi sulle classi; esercizio di gruppo, dove è presente il collegamento alla repository interessata</p>
+🔸 Esercizio di gruppo/
+Cartella contenente il link di riferimento alla repository dove è stato svolto l'esercizio
