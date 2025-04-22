@@ -1,6 +1,5 @@
-<h3 align="left"> Traccia esercizio </h3>
-<p align= "left"> 
-  
+##  Traccia esercizio </h3>
+
 - Andare a creare un sistema che permetta di gestire le prenotazioni in una sala concerti.
 - Il sistema deve tenere conto di MINIMO di 3 cose, Utenti_Registrati, Concerti_registrati, Prenotazioni_Effettuate.
 - Ogni sala ha 10 posti.
@@ -11,4 +10,6 @@
 
 
 NON SONO PERMESSE CLASSI
-</p>
+
+## Collegamento alla repository
+https://github.com/filippogiorgiorondo/EsercizioCondiviso1
