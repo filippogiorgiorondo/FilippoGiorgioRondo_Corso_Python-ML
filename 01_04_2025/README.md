@@ -1,12 +1,19 @@
-<h1 align="left"> Resoconto giorno 4 di corso</h1>
+# Resoconto 4° giorno di corso
+## 📌 Panoramica generale
 
-###
+- Esercizi di riepilogo
+- Studio delle funzioni
+- Esercizi sulle funzioni
+- Esercizio di coppia per prendere dimestichezza con i branch
 
-<h3 align="left"> Argomenti svolti</h3>
-<p align="left"> In questa giornata abbiamo dedicato una parte della mattinata a svolgere esercizi di riepilogo che comprendessero tutti gli argomenti fin'ora svolti, per poi proseguire e studiare le funzioni. Anche gli argomenti nuovi sono stati ripresi e approfonditi dal punto di vista pratico. Durante le ultime ore della giornata ci è stato assegnato un compito (completato e rifinito il giorno dopo) da svolgere in coppia per prendere dimestichezza con i branch </p>
+## 📂 Contenuto della Repository
+🔸 Es coppia con branch/
+Cartella contenente un link di riferimento alla repository utilizzata per completare l'esercizio di coppia
 
-###
+🔸 Esercizi Funzioni/
+Cartella contenente gli esercizi svolti sulle funzioni
 
-<h3 align="left"> Contenuto </h3>
-<p align="left"> La repo contiene una cartella con gli esercizi di riepilogo sugli argomenti trattati e una cartella con gli esercizi sulle funzioni</p>
+🔸 Esercizi riepilogo/
+Cartella contenente gli esercizi di riepilogo svolti
+
 
