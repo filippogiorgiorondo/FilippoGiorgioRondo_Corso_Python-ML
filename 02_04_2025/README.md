@@ -1,11 +1,21 @@
-<h1 align="left"> Resoconto giorno 5 di corso</h1>
+# Resoconto 5° giorno di corso
 
-###
+## 📌 Panoramica generale
 
-<h3 align="left"> Argomenti svolti</h3>
-<p align="left"> In questa giornata abbiamo dedicato una parte della mattinata a completare l'esercizio di coppia iniziato il giorno prima e a svolgere ulteriori esercizi sulle funzioni. Abbiamo inoltre studiato i decoratori, le tuple e gli insiemi. Gli argomenti nuovi sono stati ripresi e approfonditi dal punto di vista pratico con un esercizio sulle funzioni e suoi decoratori </p>
+ 🔺  Completamento dell'esercizio di coppia iniziato il giorno prima
+ 
+ 🔺  Ulteriori esercizi sulle funzioni
+ 
+ 🔺  Studio dei decoratori, tuple e insiemiù
+ 
+ 🔺  Esercizi sugli argomenti nuovi
+ 
+## 📂 Contenuto della Repository
+🔸 Esercizi finali/
+Cartella contenente una sorta di manuale di tutti gli argomenti affrontati nei primi 5 giorni
 
-###
+🔸 Esercizi Funzioni/
+Cartella contenente gli esercizi di approfondimento svolti sulle funzioni
 
-<h3 align="left"> Contenuto </h3>
-<p align="left"> La repo contiene le cartelle: esercizi finali, una sorta di manuale di tutti gli argomenti affrontati nei primi 5 giorni; esercizio di coppia; esercizi funzioni, dove ci sono esercizi specifici sull'uso delle funzioni</p>
+🔸 Esercizio di coppia/
+Cartella contenente il link di riferimento all'esercizio di coppia svolto
