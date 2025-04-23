@@ -14,5 +14,5 @@ La cartella contiene gli esercizi svolti per praticare i principi eredità, inca
 🔸 partita_calcio/
 La cartella contiene un programma per la gestione di una squadra da calcio con la connessione al db
 
-🔸 unita_militare/
+🔸 Es Gruppo/
 La cartella contiene un programma per la gestione delle unità militari con la connessione al db
