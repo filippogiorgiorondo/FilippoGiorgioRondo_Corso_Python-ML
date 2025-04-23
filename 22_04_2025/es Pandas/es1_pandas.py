@@ -23,3 +23,5 @@ print(df.tail())
 
 # Visualizza il tipo di dato per ogni colonna
 print(df.dtypes)
+
+print(df['Età'])
